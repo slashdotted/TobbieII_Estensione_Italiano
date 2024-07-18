@@ -10,7 +10,8 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/TobbieII-strings.json"
+        "_locales/zh/TobbieII-strings.json",
+        "_locales/de/TobbieII-strings.json"
     ],
     "public": true,
     "targetVersions": {
