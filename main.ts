@@ -331,7 +331,7 @@ namespace TobbieII {
     *Tobbie II shows his mood on the face (APP only).
     *@param RX_Data describe parameter here
     */
-    //% blockId="BLE_DOT" block="Tobbie II shows mood on face(APP only) %RX_Data"
+    //% blockId="drawface" block="Tobbie II shows mood on face(APP only) %RX_Data"
     //% blockGap=5 weight=23
     //% advanced=true
     export function drawface(RX_Data: string): void{
