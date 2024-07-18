@@ -7,13 +7,13 @@
 "TobbieII.LBlock|block": "ist linker IR Sensor über der Stärke %thresholdL|",
 "TobbieII.forward|block": "Laufe vorwärts",
 "TobbieII.backward|block": "Laufe rückwärts",
-"TobbieII.stopWalk|block": "Stoppe das Laufen",
-"TobbieII.rightWard|block": "Drehe dich rechtsherum",
-"TobbieII.leftWard|block": "Drehe dich linksherum",
-"TobbieII.stopTurn|block": "Droppe das Drehen",
-"TobbieII.vibrate|block": "Vibriere für %time| Sekunden ",
-"TobbieII.shake_head|block": "Schüttel den Kopf für %time| Sekunden ",
-"TobbieII.dance|block": "Tanze für %time| Sekunden ", 
-"TobbieII.drawFace|block": "Zeige das Gesicht %RX_Data|"
+"TobbieII.stopwalk|block": "Stoppe das Laufen",
+"TobbieII.rightward|block": "Drehe dich rechtsherum",
+"TobbieII.leftward|block": "Drehe dich linksherum",
+"TobbieII.stopturn|block": "Droppe das Drehen",
+"TobbieII.vibrate|block": "Stampfe %time| Mal ",
+"TobbieII.shake_head|block": "Schüttel den Kopf %time| Mal ",
+"TobbieII.dance|block": "Tanze %time| Mal ", 
+"TobbieII.BLE_DOT|block": "Zeige die Stimmung im Gesicht (Nur App) %RX_Data|"
 }
 
