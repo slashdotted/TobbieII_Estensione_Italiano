@@ -8,12 +8,12 @@
 "TobbieII.forward|block": "Laufe vorwärts",
 "TobbieII.backward|block": "Laufe rückwärts",
 "TobbieII.stopwalk|block": "Stoppe das Laufen",
-"TobbieII.rightward|block": "Drehe dich rechtsherum",
-"TobbieII.leftward|block": "Drehe dich linksherum",
+"TobbieII.rightward|block": "Drehe dich rechts herum",
+"TobbieII.leftward|block": "Drehe dich links herum",
 "TobbieII.stopturn|block": "Droppe das Drehen",
-"TobbieII.vibrate|block": "Stampfe %time| Mal ",
-"TobbieII.shake_head|block": "Schüttel den Kopf %time| Mal ",
-"TobbieII.dance|block": "Tanze %time| Mal ", 
-"TobbieII.BLE_DOT|block": "Zeige die Stimmung im Gesicht (Nur App) %RX_Data|"
+"TobbieII.vibrate|block": "Stampfe %time| Mal",
+"TobbieII.shake_head|block": "Schüttel den Kopf %time| Mal",
+"TobbieII.dance|block": "Tanze %time| Mal", 
+"TobbieII.drawface|block": "Zeige die Stimmung im Gesicht (Nur App) %RX_Data|"
 }
 
