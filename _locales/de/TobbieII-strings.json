@@ -1,0 +1,19 @@
+{
+"TobbieII|block": "Tobbie II",
+
+"TobbieII.Read_RBlock|block": "Lese rechte IR Sensordaten (0~1024)",
+"TobbieII.Read_LBlock|block": "Lese linke IR Sensordaten (0~1024)",
+"TobbieII.RBlock|block": "ist rechter IR Sensor über der Stärke %thresholdR|",
+"TobbieII.LBlock|block": "ist linker IR Sensor über der Stärke %thresholdL|",
+"TobbieII.forward|block": "Laufe vorwärts",
+"TobbieII.backward|block": "Laufe rückwärts",
+"TobbieII.stopWalk|block": "Stoppe das Laufen",
+"TobbieII.rightWard|block": "Drehe dich rechtsherum",
+"TobbieII.leftWard|block": "Drehe dich linksherum",
+"TobbieII.stopTurn|block": "Droppe das Drehen",
+"TobbieII.vibrate|block": "Vibriere für %time| Sekunden ",
+"TobbieII.shake_head|block": "Schüttel den Kopf für %time| Sekunden ",
+"TobbieII.dance|block": "Tanze für %time| Sekunden ", 
+"TobbieII.drawFace|block": "Zeige das Gesicht %RX_Data|"
+}
+
