@@ -12,6 +12,7 @@
         "main.ts",
         "_locales/zh/TobbieII-strings.json",
         "_locales/de/TobbieII-strings.json"
+        "_locales/it/TobbieII-strings.json"
     ],
     "public": true,
     "targetVersions": {

@@ -1,0 +1,17 @@
+{
+  "TobbieII|block": "Tobbie II",
+  "TobbieII.Read_RBlock|block": "Leggi i dati del sensore IR destro (0~1024)",
+  "TobbieII.Read_LBlock|block": "Leggi i dati del sensore IR sinistro (0~1024)",
+  "TobbieII.RBlock|block": "il sensore IR destro è sopra la soglia %thresholdR|",
+  "TobbieII.LBlock|block": "il sensore IR sinistro è sopra la soglia %thresholdL|",
+  "TobbieII.forward|block": "Cammina in avanti",
+  "TobbieII.backward|block": "Cammina all'indietro",
+  "TobbieII.stopwalk|block": "Ferma la camminata",
+  "TobbieII.rightward|block": "Girati a destra",
+  "TobbieII.leftward|block": "Girati a sinistra",
+  "TobbieII.stopturn|block": "Ferma la rotazione",
+  "TobbieII.vibrate|block": "Batti i piedi %time| volte",
+  "TobbieII.shake_head|block": "Scuoti la testa %time| volte",
+  "TobbieII.dance|block": "Balla %time| volte",
+  "TobbieII.drawface|block": "Mostra l'espressione sul volto (Solo App) %RX_Data|"
+}
