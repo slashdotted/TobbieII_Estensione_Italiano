@@ -71,7 +71,7 @@ namespace TobbieII {
  
     /** Read the value sensed by the right side of the infrared sensor.
     */
-    //% blockId="Read_RBolck" block="get right IR data(return 0~1024)"
+    //% blockId="Read_RBlock" block="get right IR data(return 0~1024)"
     //% blockGap=5 weight=65                 //與下一個方塊的間隙及排重
     export function Read_RBlock() :number {
         basic.pause(100)
@@ -85,7 +85,7 @@ namespace TobbieII {
     }
     /** Read the value sensed by the left side of the infrared sensor.
     */
-    //% blockId="Read_LBolck" block="get left IR data(trtuen 0~1024)"
+    //% blockId="Read_LBlock" block="get left IR data(trtuen 0~1024)"
     //% blockGap=15 weight=60                 //與下一個方塊的間隙及排重
     export function Read_LBlock() :number {
         basic.pause(100)
@@ -102,7 +102,7 @@ namespace TobbieII {
     *Determine if there are obstacles on the right side.
     *@param thresholdR ; eg: 512
     */
-    //% blockId="RBolck" block="is the right IR over %thresholdR strength"
+    //% blockId="RBlock" block="is the right IR over %thresholdR strength"
     //% thresholdR.min=0 thresholdR.max=1023
     //% blockGap=5 weight=58
     export function RBlock(thresholdR: number = 512 ) :boolean {
@@ -125,7 +125,7 @@ namespace TobbieII {
     *Determine if there are obstacles on the left side.
     *@param thresholdL ; eg: 512
     */
-    //% blockId="LBolck" block="is the left IR over %thresholdL strength"
+    //% blockId="LBlock" block="is the left IR over %thresholdL strength"
     //% thresholdL.min=0 thresholdL.max=1023
     //% blockGap=10 weight=57
     export function LBlock(thresholdL: number=512 ) :boolean {
@@ -149,7 +149,7 @@ namespace TobbieII {
     
     
     //輸出脈波
-    //% blockId="IRbolck" block="Out pulse & show-04"
+    //% blockId="IRBlock" block="Out pulse & show-04"
     //% blockGap=10 weight=55
     //export function IRblock() {
     //    ADL_L = pins.analogReadPin(AnalogPin.P1)
