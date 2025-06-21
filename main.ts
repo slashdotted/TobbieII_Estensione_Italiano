@@ -69,7 +69,7 @@ namespace TobbieII {
 //        )
 //    }
  
-    /** Read the value sensed by the right side of the infrared sensor.
+    /** Legge i valori del sensore infrarosso a destra.
     */
     //% blockId="Read_RBlock" block="Leggi i dati del sensore IR destro (0~1024)"
     //% blockGap=5 weight=65                 //與下一個方塊的間隙及排重
@@ -83,7 +83,7 @@ namespace TobbieII {
         if (pins.digitalReadPin(DigitalPin.P8) == 1) Read_RIR = ADH_R - ADL_R;
         return (Read_RIR)     
     }
-    /** Read the value sensed by the left side of the infrared sensor.
+    /** Legge i valori del sensore infrarosso a sinistra.
     */
     //% blockId="Read_LBlock" block="Leggi i dati del sensore IR sinistro (0~1024)"
     //% blockGap=15 weight=60                 //與下一個方塊的間隙及排重
@@ -99,7 +99,7 @@ namespace TobbieII {
         return(Read_LIR)       
     }
 /**
-    *Determine if there are obstacles on the right side.
+    *Determina se ci sono ostacoli a destra.
     *@param thresholdR ; eg: 512
     */
     //% blockId="RBlock" block="il sensore IR destro è sopra la soglia %thresholdR"
@@ -122,7 +122,7 @@ namespace TobbieII {
         }     
     }
     /**
-    *Determine if there are obstacles on the left side.
+    *Determina se ci sono ostacoli a sinistra.
     *@param thresholdL ; eg: 512
     */
     //% blockId="LBlock" block="il sensore IR sinistro è sopra la soglia %thresholdL"
@@ -183,7 +183,7 @@ namespace TobbieII {
      //return(true)       
     //}
     /**
-    *Tobbie-II walks forward.
+    *Cammina in avanti.
     */
     //% blockId="forward" block="Cammina in avanti"
     //% blockGap=3 weight=35
@@ -194,7 +194,7 @@ namespace TobbieII {
         }
     }
     /**
-    *Tobbie-II walks backward.
+    *Cammina all''indietro.
     */
     //% blockId="backward" block="Cammina all'indietro"
     //% blockGap=3  weight=34
@@ -208,7 +208,7 @@ namespace TobbieII {
 
     }
     /**
-    *Tobbie-II stops walking.
+    *Ferma la camminata.
     */
     //% blockId="stopwalk" block="Ferma la camminata"
     //% blockGap=10 weight=33
@@ -217,7 +217,7 @@ namespace TobbieII {
         pins.digitalWritePin(DigitalPin.P14, 0)
     }
     /**
-    *Tobbie-II rotates to the right.
+    *Il robot ruota a destra.
     */
     //% blockId="rightward" block="Girati a destra"
     //% blockGap=3  weight=32
@@ -228,7 +228,7 @@ namespace TobbieII {
         Motor_R=true
     }
     /**
-    *Tobbie-II rotates to the left.
+    *Il robot ruota a sinistra.
     */
     //% blockId="leftward" block="Girati a sinistra"
     //% blockGap=3  weight=31
@@ -239,7 +239,7 @@ namespace TobbieII {
         Motor_R=false
     }
     /**
-    *Tobbie-II stops rotating.
+    *Il robot smette di ruotare.
     */
     //% blockId="stopturn" block="Ferma la rotazione"
     //% blockGap=10 weight=30
@@ -262,8 +262,8 @@ namespace TobbieII {
     }
     
  /**
-    *Tobbie-II stamps his foot for a certain number of times.
-    *@param time describe parameter here, eg:5
+    *Il robot batte i piedi un certo numero di volte.
+    *@param time quante volte battere i piedi, eg:5
     */
     //% blockId="vibrate" block="Batti i piedi %time volte"
     //% time.min=1 time.max=100
@@ -282,8 +282,8 @@ namespace TobbieII {
         pins.digitalWritePin(DigitalPin.P14, 0)
     }   
  /**
-    *Tobbie-II shakes his head for a certain number of times.
-    *@param time describe parameter here, eg:5
+    *Il robot scuote la testa un certo numero di volte.
+    *@param time quante volte scuotere la testa, eg:5
     */
     //% blockId="shake_head" block="Scuoti la testa %time volte"
     //% time.min=1 time.max=100
@@ -302,8 +302,8 @@ namespace TobbieII {
         pins.digitalWritePin(DigitalPin.P16, 0)
     }      
 /**
-    *Tobbie-II repeats the dance for for a certain number of times.
-    *@param time describe parameter here, eg:5
+    *Il robot balla un certo numer di volte.
+    *@param time quante volte ballare, eg:5
     */
     //% blockId="dance" block="Balla %time volte"
     //% time.min=1 time.max=100
@@ -328,8 +328,8 @@ namespace TobbieII {
         pins.digitalWritePin(DigitalPin.P16, 0)
     } 
 /**
-    *Tobbie II shows his mood on the face (APP only).
-    *@param RX_Data describe parameter here
+    *Il robot mostra un'espressione sul volto (solo APP).
+    *@param RX_Data l'espressione da mostrare'
     */
     //% blockId="drawface" block="Mostra l'espressione sul volto (solo APP) %RX_Data"
     //% blockGap=5 weight=23
