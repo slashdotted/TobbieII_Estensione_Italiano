@@ -102,7 +102,7 @@ namespace TobbieII {
     *Determine if there are obstacles on the right side.
     *@param thresholdR ; eg: 512
     */
-    //% blockId="RBlock" block=""il sensore IR destro è sopra la soglia %thresholdR"
+    //% blockId="RBlock" block="il sensore IR destro è sopra la soglia %thresholdR"
     //% thresholdR.min=0 thresholdR.max=1023
     //% blockGap=5 weight=58
     export function RBlock(thresholdR: number = 512 ) :boolean {
